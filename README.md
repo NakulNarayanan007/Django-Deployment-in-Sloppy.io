@@ -1,4 +1,5 @@
-###install Docker
+### Docker Install
+
 1. Get the latest Docker package
 
    ```    
@@ -14,7 +15,7 @@
 3. Verify docker is installed correctly
       ``` sudo docker run hello-world ```
 
-## Run locally
+## Setting Up server
 
 1.Clone the project to the local.
 
