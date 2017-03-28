@@ -45,7 +45,10 @@ eg: sudo docker build -t django_image.
 
 10.Run the server using the command
     ``` sloppy start [File.JSON] ```
-    
-   
+11. you can see that your project is up and running in the sloppy dashoard
+
+12. you can manage your app settings in ```https://admin.sloppy.io/project/your-app-name/service/middleware/app/appserver/settings```
+
+13. you can see the your app stats in ```https://admin.sloppy.io/project/your-app-name/service/middleware/app/appserver/analytics/stats```   
 
 
