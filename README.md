@@ -27,20 +27,24 @@
 eg: sudo docker build -t django_image.
 
 
-4.Run a docker container with this image, By running this the app will be live.
+4.create a docker hub repo to push the image
 
-   ``` sudo docker run -d --name [container_name] -i [image_name] ```
+5.Tag the image and push the docker image to repo  
+``` sudo docker tag [image_name] [repo_name] ```
+ ``` sudo docker push [image_name] ```
+ 
+6.Create account in sloppy.
+
+7.Install sloppy Cli follow the link.
+      ``` https://sloppy.io/document/step-1-install-the-cli/ ```
+
+8.Create JSON file as per requirement.
+
+9.Export CLi token from sloppy site.
+
+10.Run the server using the command
+    ``` sloppy start [File.JSON] ```
+    
    
-eg:``` sudo docker run -d --name Django -i django_image ```
 
 
-5.If you check the running Docker containers by using 
-``` sudo docker ps ```.
- in here we can see our container running
- 
- 
-6.To check it in our browser, find IP of Docker container build.
-``` sudo docker inspect [container_name] ```
-
-
-7.Go to that IP in our browser their you can see our app live
